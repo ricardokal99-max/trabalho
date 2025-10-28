@@ -51,7 +51,7 @@ def buscar_livro():
 
 # PASSO 4: Gerar gráfico com quantidade de livros por gênero
 def gerar_grafico():
-    import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt # pyright: ignore[reportMissingModuleSource]
     from collections import defaultdict
 
     if not biblioteca:
